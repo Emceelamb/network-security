@@ -1,0 +1,385 @@
+# Nmap 7.01 scan initiated Tue Jul  2 13:17:26 2019 as: nmap -sV -O -p- -v --script smb-vuln-ms08-067.nse -oA /root/netsec/nmap_scan1.txt 10.10.111.0/24
+Nmap scan report for 10.10.111.0 [host down]
+Nmap scan report for 10.10.111.3 [host down]
+Nmap scan report for 10.10.111.4 [host down]
+Nmap scan report for 10.10.111.5 [host down]
+Nmap scan report for 10.10.111.6 [host down]
+Nmap scan report for 10.10.111.7 [host down]
+Nmap scan report for 10.10.111.8 [host down]
+Nmap scan report for 10.10.111.9 [host down]
+Nmap scan report for 10.10.111.10 [host down]
+Nmap scan report for 10.10.111.11 [host down]
+Nmap scan report for 10.10.111.12 [host down]
+Nmap scan report for 10.10.111.13 [host down]
+Nmap scan report for 10.10.111.14 [host down]
+Nmap scan report for 10.10.111.15 [host down]
+Nmap scan report for 10.10.111.16 [host down]
+Nmap scan report for 10.10.111.17 [host down]
+Nmap scan report for 10.10.111.18 [host down]
+Nmap scan report for 10.10.111.19 [host down]
+Nmap scan report for 10.10.111.20 [host down]
+Nmap scan report for 10.10.111.21 [host down]
+Nmap scan report for 10.10.111.22 [host down]
+Nmap scan report for 10.10.111.23 [host down]
+Nmap scan report for 10.10.111.24 [host down]
+Nmap scan report for 10.10.111.25 [host down]
+Nmap scan report for 10.10.111.26 [host down]
+Nmap scan report for 10.10.111.27 [host down]
+Nmap scan report for 10.10.111.28 [host down]
+Nmap scan report for 10.10.111.29 [host down]
+Nmap scan report for 10.10.111.30 [host down]
+Nmap scan report for 10.10.111.31 [host down]
+Nmap scan report for 10.10.111.32 [host down]
+Nmap scan report for 10.10.111.33 [host down]
+Nmap scan report for 10.10.111.34 [host down]
+Nmap scan report for 10.10.111.35 [host down]
+Nmap scan report for 10.10.111.36 [host down]
+Nmap scan report for 10.10.111.37 [host down]
+Nmap scan report for 10.10.111.38 [host down]
+Nmap scan report for 10.10.111.39 [host down]
+Nmap scan report for 10.10.111.40 [host down]
+Nmap scan report for 10.10.111.41 [host down]
+Nmap scan report for 10.10.111.42 [host down]
+Nmap scan report for 10.10.111.43 [host down]
+Nmap scan report for 10.10.111.44 [host down]
+Nmap scan report for 10.10.111.45 [host down]
+Nmap scan report for 10.10.111.46 [host down]
+Nmap scan report for 10.10.111.47 [host down]
+Nmap scan report for 10.10.111.48 [host down]
+Nmap scan report for 10.10.111.49 [host down]
+Nmap scan report for 10.10.111.50 [host down]
+Nmap scan report for 10.10.111.51 [host down]
+Nmap scan report for 10.10.111.52 [host down]
+Nmap scan report for 10.10.111.53 [host down]
+Nmap scan report for 10.10.111.54 [host down]
+Nmap scan report for 10.10.111.55 [host down]
+Nmap scan report for 10.10.111.56 [host down]
+Nmap scan report for 10.10.111.57 [host down]
+Nmap scan report for 10.10.111.58 [host down]
+Nmap scan report for 10.10.111.59 [host down]
+Nmap scan report for 10.10.111.60 [host down]
+Nmap scan report for 10.10.111.61 [host down]
+Nmap scan report for 10.10.111.62 [host down]
+Nmap scan report for 10.10.111.63 [host down]
+Nmap scan report for 10.10.111.64 [host down]
+Nmap scan report for 10.10.111.65 [host down]
+Nmap scan report for 10.10.111.66 [host down]
+Nmap scan report for 10.10.111.67 [host down]
+Nmap scan report for 10.10.111.68 [host down]
+Nmap scan report for 10.10.111.69 [host down]
+Nmap scan report for 10.10.111.70 [host down]
+Nmap scan report for 10.10.111.71 [host down]
+Nmap scan report for 10.10.111.72 [host down]
+Nmap scan report for 10.10.111.73 [host down]
+Nmap scan report for 10.10.111.74 [host down]
+Nmap scan report for 10.10.111.75 [host down]
+Nmap scan report for 10.10.111.76 [host down]
+Nmap scan report for 10.10.111.77 [host down]
+Nmap scan report for 10.10.111.78 [host down]
+Nmap scan report for 10.10.111.79 [host down]
+Nmap scan report for 10.10.111.80 [host down]
+Nmap scan report for 10.10.111.81 [host down]
+Nmap scan report for 10.10.111.82 [host down]
+Nmap scan report for 10.10.111.83 [host down]
+Nmap scan report for 10.10.111.84 [host down]
+Nmap scan report for 10.10.111.85 [host down]
+Nmap scan report for 10.10.111.86 [host down]
+Nmap scan report for 10.10.111.87 [host down]
+Nmap scan report for 10.10.111.88 [host down]
+Nmap scan report for 10.10.111.89 [host down]
+Nmap scan report for 10.10.111.90 [host down]
+Nmap scan report for 10.10.111.91 [host down]
+Nmap scan report for 10.10.111.92 [host down]
+Nmap scan report for 10.10.111.93 [host down]
+Nmap scan report for 10.10.111.94 [host down]
+Nmap scan report for 10.10.111.95 [host down]
+Nmap scan report for 10.10.111.96 [host down]
+Nmap scan report for 10.10.111.97 [host down]
+Nmap scan report for 10.10.111.98 [host down]
+Nmap scan report for 10.10.111.99 [host down]
+Nmap scan report for 10.10.111.1
+Host is up (0.00033s latency).
+Not shown: 65532 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+25/tcp open  smtp    Postfix smtpd
+53/tcp open  domain  ISC BIND 9.10.3-P4-Ubuntu
+MAC Address: 00:00:00:00:00:03 (Xerox)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.0
+Uptime guess: 3.828 days (since Fri Jun 28 17:27:43 2019)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host:  ubuntu; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.10.111.2
+Host is up (0.00036s latency).
+Not shown: 65532 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+25/tcp open  smtp    Postfix smtpd
+53/tcp open  domain  ISC BIND 9.10.3-P4-Ubuntu
+MAC Address: 00:00:00:00:00:02 (Xerox)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.0
+Uptime guess: 3.828 days (since Fri Jun 28 17:27:40 2019)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host:  ubuntu; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.10.111.101
+Host is up (0.00036s latency).
+Not shown: 65532 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+25/tcp open  smtp    Postfix smtpd
+53/tcp open  domain  ISC BIND 9.10.3-P4-Ubuntu
+MAC Address: 00:00:00:00:00:06 (Xerox)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.0
+Uptime guess: 3.828 days (since Fri Jun 28 17:27:57 2019)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host:  ubuntu; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.10.111.102
+Host is up (0.0017s latency).
+Not shown: 65530 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows 98 netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+1025/tcp open  msrpc        Microsoft Windows RPC
+5000/tcp open  upnp?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5000-TCP:V=7.01%I=7%D=7/2%Time=5D1B91CB%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,1C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n\r\n")%r(GetRequest
+SF:,1C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n\r\n")%r(RTSPRequest,1C,"HTT
+SF:P/1\.1\x20400\x20Bad\x20Request\r\n\r\n")%r(HTTPOptions,1C,"HTTP/1\.1\x
+SF:20400\x20Bad\x20Request\r\n\r\n")%r(FourOhFourRequest,1C,"HTTP/1\.1\x20
+SF:400\x20Bad\x20Request\r\n\r\n")%r(SIPOptions,1C,"HTTP/1\.1\x20400\x20Ba
+SF:d\x20Request\r\n\r\n");
+MAC Address: 00:00:00:00:00:05 (Xerox)
+Device type: general purpose
+Running: Microsoft Windows 2000|XP
+OS CPE: cpe:/o:microsoft:windows_2000::- cpe:/o:microsoft:windows_2000::sp1 cpe:/o:microsoft:windows_2000::sp2 cpe:/o:microsoft:windows_2000::sp3 cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_xp::- cpe:/o:microsoft:windows_xp::sp1
+OS details: Microsoft Windows 2000 SP0 - SP4 or Windows XP SP0 - SP1
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=134 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows 98, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_98, cpe:/o:microsoft:windows_xp
+
+Host script results:
+| smb-vuln-ms08-067: 
+|   VULNERABLE:
+|   Microsoft Windows system vulnerable to remote code execution (MS08-067)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2008-4250
+|           The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, 
+|           Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary 
+|           code via a crafted RPC request that triggers the overflow during path canonicalization.
+|           
+|     Disclosure date: 2008-10-23
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-4250
+|_      https://technet.microsoft.com/en-us/library/security/ms08-067.aspx
+
+Nmap scan report for 10.10.111.104 [host down]
+Nmap scan report for 10.10.111.105 [host down]
+Nmap scan report for 10.10.111.106 [host down]
+Nmap scan report for 10.10.111.107 [host down]
+Nmap scan report for 10.10.111.108 [host down]
+Nmap scan report for 10.10.111.109 [host down]
+Nmap scan report for 10.10.111.110 [host down]
+Nmap scan report for 10.10.111.111 [host down]
+Nmap scan report for 10.10.111.112 [host down]
+Nmap scan report for 10.10.111.113 [host down]
+Nmap scan report for 10.10.111.114 [host down]
+Nmap scan report for 10.10.111.115 [host down]
+Nmap scan report for 10.10.111.116 [host down]
+Nmap scan report for 10.10.111.117 [host down]
+Nmap scan report for 10.10.111.118 [host down]
+Nmap scan report for 10.10.111.119 [host down]
+Nmap scan report for 10.10.111.120 [host down]
+Nmap scan report for 10.10.111.121 [host down]
+Nmap scan report for 10.10.111.122 [host down]
+Nmap scan report for 10.10.111.123 [host down]
+Nmap scan report for 10.10.111.124 [host down]
+Nmap scan report for 10.10.111.125 [host down]
+Nmap scan report for 10.10.111.126 [host down]
+Nmap scan report for 10.10.111.127 [host down]
+Nmap scan report for 10.10.111.128 [host down]
+Nmap scan report for 10.10.111.129 [host down]
+Nmap scan report for 10.10.111.130 [host down]
+Nmap scan report for 10.10.111.131 [host down]
+Nmap scan report for 10.10.111.132 [host down]
+Nmap scan report for 10.10.111.133 [host down]
+Nmap scan report for 10.10.111.134 [host down]
+Nmap scan report for 10.10.111.135 [host down]
+Nmap scan report for 10.10.111.136 [host down]
+Nmap scan report for 10.10.111.137 [host down]
+Nmap scan report for 10.10.111.138 [host down]
+Nmap scan report for 10.10.111.139 [host down]
+Nmap scan report for 10.10.111.140 [host down]
+Nmap scan report for 10.10.111.141 [host down]
+Nmap scan report for 10.10.111.142 [host down]
+Nmap scan report for 10.10.111.143 [host down]
+Nmap scan report for 10.10.111.144 [host down]
+Nmap scan report for 10.10.111.145 [host down]
+Nmap scan report for 10.10.111.146 [host down]
+Nmap scan report for 10.10.111.147 [host down]
+Nmap scan report for 10.10.111.148 [host down]
+Nmap scan report for 10.10.111.149 [host down]
+Nmap scan report for 10.10.111.150 [host down]
+Nmap scan report for 10.10.111.151 [host down]
+Nmap scan report for 10.10.111.152 [host down]
+Nmap scan report for 10.10.111.153 [host down]
+Nmap scan report for 10.10.111.154 [host down]
+Nmap scan report for 10.10.111.155 [host down]
+Nmap scan report for 10.10.111.156 [host down]
+Nmap scan report for 10.10.111.157 [host down]
+Nmap scan report for 10.10.111.158 [host down]
+Nmap scan report for 10.10.111.159 [host down]
+Nmap scan report for 10.10.111.160 [host down]
+Nmap scan report for 10.10.111.161 [host down]
+Nmap scan report for 10.10.111.162 [host down]
+Nmap scan report for 10.10.111.163 [host down]
+Nmap scan report for 10.10.111.164 [host down]
+Nmap scan report for 10.10.111.165 [host down]
+Nmap scan report for 10.10.111.166 [host down]
+Nmap scan report for 10.10.111.167 [host down]
+Nmap scan report for 10.10.111.168 [host down]
+Nmap scan report for 10.10.111.169 [host down]
+Nmap scan report for 10.10.111.170 [host down]
+Nmap scan report for 10.10.111.171 [host down]
+Nmap scan report for 10.10.111.172 [host down]
+Nmap scan report for 10.10.111.173 [host down]
+Nmap scan report for 10.10.111.174 [host down]
+Nmap scan report for 10.10.111.175 [host down]
+Nmap scan report for 10.10.111.176 [host down]
+Nmap scan report for 10.10.111.177 [host down]
+Nmap scan report for 10.10.111.178 [host down]
+Nmap scan report for 10.10.111.179 [host down]
+Nmap scan report for 10.10.111.180 [host down]
+Nmap scan report for 10.10.111.181 [host down]
+Nmap scan report for 10.10.111.182 [host down]
+Nmap scan report for 10.10.111.183 [host down]
+Nmap scan report for 10.10.111.184 [host down]
+Nmap scan report for 10.10.111.185 [host down]
+Nmap scan report for 10.10.111.186 [host down]
+Nmap scan report for 10.10.111.187 [host down]
+Nmap scan report for 10.10.111.188 [host down]
+Nmap scan report for 10.10.111.189 [host down]
+Nmap scan report for 10.10.111.190 [host down]
+Nmap scan report for 10.10.111.191 [host down]
+Nmap scan report for 10.10.111.192 [host down]
+Nmap scan report for 10.10.111.193 [host down]
+Nmap scan report for 10.10.111.194 [host down]
+Nmap scan report for 10.10.111.195 [host down]
+Nmap scan report for 10.10.111.196 [host down]
+Nmap scan report for 10.10.111.197 [host down]
+Nmap scan report for 10.10.111.198 [host down]
+Nmap scan report for 10.10.111.199 [host down]
+Nmap scan report for 10.10.111.200 [host down]
+Nmap scan report for 10.10.111.201 [host down]
+Nmap scan report for 10.10.111.202 [host down]
+Nmap scan report for 10.10.111.203 [host down]
+Nmap scan report for 10.10.111.204 [host down]
+Nmap scan report for 10.10.111.205 [host down]
+Nmap scan report for 10.10.111.206 [host down]
+Nmap scan report for 10.10.111.207 [host down]
+Nmap scan report for 10.10.111.208 [host down]
+Nmap scan report for 10.10.111.209 [host down]
+Nmap scan report for 10.10.111.210 [host down]
+Nmap scan report for 10.10.111.211 [host down]
+Nmap scan report for 10.10.111.212 [host down]
+Nmap scan report for 10.10.111.213 [host down]
+Nmap scan report for 10.10.111.214 [host down]
+Nmap scan report for 10.10.111.215 [host down]
+Nmap scan report for 10.10.111.216 [host down]
+Nmap scan report for 10.10.111.217 [host down]
+Nmap scan report for 10.10.111.218 [host down]
+Nmap scan report for 10.10.111.219 [host down]
+Nmap scan report for 10.10.111.220 [host down]
+Nmap scan report for 10.10.111.221 [host down]
+Nmap scan report for 10.10.111.222 [host down]
+Nmap scan report for 10.10.111.223 [host down]
+Nmap scan report for 10.10.111.224 [host down]
+Nmap scan report for 10.10.111.225 [host down]
+Nmap scan report for 10.10.111.226 [host down]
+Nmap scan report for 10.10.111.227 [host down]
+Nmap scan report for 10.10.111.228 [host down]
+Nmap scan report for 10.10.111.229 [host down]
+Nmap scan report for 10.10.111.230 [host down]
+Nmap scan report for 10.10.111.231 [host down]
+Nmap scan report for 10.10.111.232 [host down]
+Nmap scan report for 10.10.111.233 [host down]
+Nmap scan report for 10.10.111.234 [host down]
+Nmap scan report for 10.10.111.235 [host down]
+Nmap scan report for 10.10.111.236 [host down]
+Nmap scan report for 10.10.111.237 [host down]
+Nmap scan report for 10.10.111.238 [host down]
+Nmap scan report for 10.10.111.239 [host down]
+Nmap scan report for 10.10.111.240 [host down]
+Nmap scan report for 10.10.111.241 [host down]
+Nmap scan report for 10.10.111.242 [host down]
+Nmap scan report for 10.10.111.243 [host down]
+Nmap scan report for 10.10.111.244 [host down]
+Nmap scan report for 10.10.111.245 [host down]
+Nmap scan report for 10.10.111.246 [host down]
+Nmap scan report for 10.10.111.247 [host down]
+Nmap scan report for 10.10.111.248 [host down]
+Nmap scan report for 10.10.111.249 [host down]
+Nmap scan report for 10.10.111.250 [host down]
+Nmap scan report for 10.10.111.251 [host down]
+Nmap scan report for 10.10.111.252 [host down]
+Nmap scan report for 10.10.111.253 [host down]
+Nmap scan report for 10.10.111.254 [host down]
+Nmap scan report for 10.10.111.255 [host down]
+Nmap scan report for 10.10.111.103
+Host is up (0.00032s latency).
+Not shown: 65525 filtered ports
+PORT     STATE  SERVICE     VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+80/tcp   open   http        Apache httpd 2.4.7
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+445/tcp  open   netbios-ssn Samba smbd 3.X (workgroup: METASPLOITABLE3-UB1404)
+631/tcp  open   ipp         CUPS 1.7
+|_http-server-header: CUPS/1.7 IPP/2.1
+3000/tcp closed ppp
+3306/tcp open   mysql       MySQL (unauthorized)
+3500/tcp open   http        WEBrick httpd 1.3.1 (Ruby 2.3.7 (2018-03-28))
+|_http-server-header: WEBrick/1.3.1 (Ruby/2.3.7/2018-03-28)
+6697/tcp open   irc         Unreal ircd
+8181/tcp open   http        WEBrick httpd 1.3.1 (Ruby 2.3.7 (2018-03-28))
+|_http-server-header: WEBrick/1.3.1 (Ruby/2.3.7/2018-03-28)
+MAC Address: 00:00:00:00:00:07 (Xerox)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.0
+Uptime guess: 3.049 days (since Sat Jun 29 12:11:16 2019)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Hosts: 127.0.1.1, irc.TestIRC.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.10.111.100
+Host is up (0.000024s latency).
+All 65535 scanned ports on 10.10.111.100 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul  2 13:21:46 2019 -- 256 IP addresses (6 hosts up) scanned in 259.77 seconds

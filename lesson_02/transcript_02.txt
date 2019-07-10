@@ -1,0 +1,1262 @@
+ 00:00:02
+Hello. Welcome to see a six, a two, three network security. Today is Monday, June 10 2019. This is week number two for our summer session.
+00:00:19
+Every week, I have some Bonus questions for you to if you choose to participate in. If you perform all the Bonus questions, you get approximately two to 2.5%
+00:00:30
+For your final grade. According to one homework assignment. So you can take a notepad or word or your favorite writing instrument and answer these questions and upload the answers to NYU classes all the exercise.
+00:00:48
+Week. Number two exercises before 5pm of the following week so exercise number one. Please review your slides and also from last week.
+00:00:57
+And tell me three points that you remember let's let's take two minutes do this. So just talk through the slides last week go to your notes.
+00:01:08
+Or whatever resources you have, and let me know three main things that you remember from last week and then I'll also be asking for participants to share the answers as well.
+00:02:11
+Let's give 30 seconds.
+00:02:34
+Okay, stop right there anyone in the class like to share three points that they learn from class last week.
+00:03:19
+So here's some points that we discussed last week.
+00:03:23
+We talked about the CIA and confidentiality, integrity availability authenticity and non repudiation right si ay, ay, ay, and
+00:03:35
+We talked about how we talked about risk management and
+00:03:42
+Several ways in order to manage risk and the four main ways to manage risk would be to
+00:03:51
+Avoid it as an don't do it as an don't drive or you can mitigate such as by using
+00:04:00
+Using seatbelt airbags and and so on, you can transfer the risk that is makes it make a someone else's problem days insurance or for a real project you give it to another team or give it to operations.
+00:04:15
+And the last thing is acceptance as an you know what your risk are you just accept that. So, risk management, though, essentially four categories of things I can do, which is avoid but a gate or limit transfer or accept
+00:04:30
+We talked about several ways to perform risk assessments. We talked about the quantitative method that is using numbers we took. We went to two examples. So night that will probably be on the exam.
+00:04:45
+With qualitative methods, which is a subjective. If it's so this is spelled incorrectly is qualitative subjective and for that one. We use the Department of Defense risk cube which is the cube with
+00:05:02
+A 2D cube with
+00:05:05
+One axis being impact and one access being likelihood. And we worked on some examples as that, too, that's also a good exam question. You know, it's easy to write. It's easy to answer questions.
+00:05:20
+Today we'll talk about attack trees and attack trees helps you envision what other things are attacker cares about now attack trees matter because attackers are lazy no attackers only want to do the minimum amount of work in order to compromise a host, for example.
+00:05:43
+You've been hearing lately about a lot about these ransomware attacks and ransomware attacks is when they organization gets hit with this malware that encrypts a desk.
+00:05:55
+And the attacker is asking for some sort of money using Bitcoins in order to give the decryption key to decrypt the systems.
+00:06:04
+Right, that's ransomware and is hitting a lot of places likely right you heard of hospitals city government, state government energy companies financial companies, then being hit all over the place.
+00:06:20
+But the thing is, the attackers usually are not going after these specific targets. They're usually not trying to write these specific targets are
+00:06:32
+Maybe the week in the cyber security or an information security and because they're a little weak on it. The attackers are able to get in Russia is trying to go for another target that's harder to get into
+00:06:45
+Attack trees is one way in order to help you know us to defenders decide what are the attackers are trying to do or what other, what is the what is the reasoning behind the attackers in order to decide which target to hit
+00:07:03
+For example, here is an example of an attack.
+00:07:11
+On the top is your goal you go here is to open safe right so let's say our goal here is to open safe so tough one is
+00:07:26
+So the top that is our goal.
+00:07:30
+Our goal is to open safe.
+00:07:32
+And then each of the four leaves here which is in this example take lock learn combo cut open safe and install improperly.
+00:07:43
+The different ways in order to achieve the goal. So for example, if someone wants to open the safe, they can pick the lock or they can learn a combo or they can open the safe or they can install it improperly. So the four ways in order to reach to go
+00:08:03
+Now, let's say,
+00:08:06
+Let's say the attacker wants to learn a combination
+00:08:10
+The attacker has two choices. They can either find a written combo or get the combo from the target right this is or this is either or they can learn a combo by find a written combo or get a combo from the targets.
+00:08:29
+Now, if the attacker wants to get the combo from the target. They can do one or four things they could threaten
+00:08:37
+Blackmail
+00:08:39
+Each drop or Brian and these are right, all these are always here so I'll point out specifically
+00:08:50
+Right. These are all
+00:08:53
+Or worse.
+00:08:57
+Right, it's pick lot or learn combo or cut open the safe or install improperly the oars.
+00:09:05
+But if they want to do one to each drop
+00:09:08
+And then the to listen into a conversation and get the target to state the combo. So note that, here, here. That's an end.
+00:09:28
+That's an end over here.
+00:09:31
+Right, so the goal is pick lock or learn combo or cut open safe or installed properly, but each drop is an East drop this into conversation and get this target. Just a couple
+00:09:46
+Now, why this is important.
+00:09:50
+It's important because
+00:09:53
+You could you can put attributes to each of these
+00:09:57
+Each of these leaves in order to determine whether the attacker can to it or not. So after you perform this initial analysis then you determine. Well, the attackers that I'm going up against who are trying to rob the bank.
+00:10:13
+They only have a certain level of capability. So you could assign attributes such as possible or impossible. So in this slide.
+00:10:24
+Each of these notes are assign an attribute of P or four possible or impossible. So example someone wants to open a safe. They can either pick lock or learn combo or cut open say for installing properly and pick a lock is impossible, right. So when I hear
+00:10:41
+Cut open safe as possible. So you put a p here.
+00:10:47
+Install improperly is impossible. So put it here. So, so far on the first level of believes only one possibility is possible. I only want as possible right now.
+00:11:01
+And then, but if they want to learn the combo. They can either find her in combo or get the call from targets and somehow the bank decided that finding the income was impossible.
+00:11:13
+So another possible way to get the open the safe is to get the combo from the target and from that they can either dragon or black male or eavesdropper or bribe. And from here, decide that threes or impossible and bribe as possible.
+00:11:30
+And lastly, each drop
+00:11:32
+You want to eavesdrop on someone. Then you to listen to a conversation and get the target to state the combo. Notice those. Is this an over here that makes a big difference.
+00:11:43
+So in this case, listen to a composition as possible but gain talking to stay combo is impossible. So therefore, each drop is impossible.
+00:11:54
+So in other words,
+00:11:56
+In order to open the safe. What choices. Does the attacker have in order to open the safe.
+00:12:03
+In this particular example.
+00:12:06
+Like if the attacker and these are what we know about the attacker. What are the ways that the attacker can open the safe now.
+00:12:20
+And this does not many choices, right, the attacker doesn't have many choices now for attacker to open the safe, they'll have to either don't have to cut open safe.
+00:12:33
+Open safe over here.
+00:12:36
+They can't find her in combo.
+00:12:38
+Didn't get the cop combo from Target. But then the only way to do it here is to bribe.
+00:12:47
+So essentially based on our analysis user attack tree.
+00:12:52
+There's only two ways for the bank robber to open the safe. It's to cut open the safe.
+00:13:00
+Or to bribe. There's only two choices.
+00:13:03
+Now this is not completely realistic, right, take this example.
+00:13:15
+There's other values can put as well. So for example, in this case we change it up and we are putting two different attributes where the attributes are
+00:13:27
+Those special equipment.
+00:13:30
+And special equipment. So in this example, pick lock requires special equipment. How did I know that similar to risk assessments we have gotten together in a room and we decided. Pick a Lock requires much equipment, because of the type of luck. We have and such.
+00:13:48
+So different attributes are put two different notes as well. So here we have special equipment and no special equipment.
+Unknown Speaker
+00:13:56
+But
+Phillip Mak
+00:13:58
+To really really make this useful.
+00:14:02
+We really need to be able to put some sort of monetary dollar about or the level of difficulty or something like that.
+00:14:09
+And probably the best way to do it. If we can translate all that into money in order to know assess how difficult it is for attacker to open the safe. So let's take this example now now has would populate it with the cost to perform the attack. So in this case, to open the safe.
+00:14:34
+You can either pick the lock, and that has been determined to be dirty K
+00:14:39
+They can learn a combo.
+00:14:41
+Cut open the safe, which is 10 K
+00:14:45
+Or they can get it installed properly which costs 100 K
+00:14:51
+You can find over in Cabo which is 75 K or get the combo from Target to get the combo from Target. They can either threaten
+00:15:00
+Blackmail bribe or they can eavesdrop but each drop is the center conversation which is 20 K and get the target. Just a couple which is 640 k. So, in other words he, stopping is
+00:15:16
+Actually
+00:15:19
+A stopping dropping is actually 60 K in this case.
+00:15:34
+Right, each topic is that 360 K. In fact, in value.
+00:15:40
+Because each job, you have to listen into conversation for 20 and get a target to listen to state the combo, which is 40 K
+00:15:49
+So dollar value is a little attributes that you could put into it and attack trees essentially work like this, you put in as many attributes as you possibly can, that you know off and you can start making assessments of your infrastructure, based on that.
+00:16:08
+SO EXCITED TO A please check out your writing.
+00:16:15
+Reading no no such and answer the following question. I think we will only take one minute for this one.
+00:16:23
+Exercise number two way.
+00:16:25
+What is the cheapest attack right let's take one minute at that
+00:16:49
+20 seconds.
+00:17:32
+Would anyone like to share the answers with the class.
+00:17:41
+Open safe for 10 K
+00:17:45
+Okay. I think so. I think that's the correct answer.
+00:17:50
+I think so.
+00:17:54
+I think the amp dance was given here too.
+00:17:57
+Alright, so let's look at next one.
+00:18:04
+So here's another example.
+00:18:06
+Attacks less than 100 k. So, this question is asking what the what are the attacks under 100 K so you can determine that, in the same way. Right. So this one's are the
+00:18:19
+Hundred K. This one's on the hundred k. Now this one is
+00:18:24
+On the hundred K. But really, if you're going to get combo from Target, you're really just gonna like Brian for 20 K and so on. Alright so next question to be. So this example has two separate
+00:18:42
+Properties in it, so it has special equipment and those special equipment and $1 sign. So now, let's say, the question is what is the cheapest attack requiring no special equipment right let's take one minute do that as well.
+00:19:58
+Would anyone like to share the answers with the class.
+00:20:04
+So bribe for 20 K. Let's see. Alright, so it's not this not this
+00:20:16
+Okay, we don't get food, but as an array. So this eavesdropping here is listen the conversation and get target just a combo. So does the and so each droppings actually 60 K don't get a food by that. So it looks like it's Bing. Alright, so it looks like the answer is Bing here.
+00:20:34
+So,
+00:20:36
+When these things with these exercises here is that
+00:20:41
+We have to determine that bribing was cheapest attack. And let's take, let's say, for example, that this is robbing a bank teller here. You're bribing a bank teller and you only takes 20 K to private bank teller in this case.
+00:21:00
+So,
+00:21:02
+How can you remove that risk. Like, how do you do that, how can you remove
+00:21:10
+The risk of the attacker bribing someone for 20 k, right, what would you do to do that.
+00:21:18
+Right, how would you do, how would you remove that risk.
+00:21:22
+Right. But let's say you did. Let's say you've moved a risk and say Bing is no longer possible right Bing is no longer possible. So now what is the cheapest attack.
+00:21:35
+With no special equipment.
+00:21:40
+What's the cheapest attack.
+00:21:44
+With no special equipment.
+00:21:49
+Is the cheapest
+00:21:53
+Attack with no special equipment. If we remove Bing. All right, let's do that for one minute.
+00:23:00
+So the big question here really is. Why do we do attack trees and we do these attack tree in order to determine what is the easiest way for attacker to open a safe.
+00:23:15
+And attacker can open the safe by simply spending 20 k by bribing an employee. So now that you determine that you try to remove that risk in some way.
+00:23:27
+Right. And it doesn't have to be perfect, right, it could be slightly subjective. It could be like level difficult to or something like that. But attack trees is a is a fairly difficult exercise, but it helps you determine what one attacker do in order to try to
+00:23:45
+achieve the goal and you know you may not figure out that they can bribe someone for 20 K, but you can probably forgot the can bribe someone from some amount that's probably not so big, so
+00:23:59
+The big question is how do you remove this node, like, what, what is it that you do in order to remove the node of someone bribing someone being bribed for 20 K. Like, what is it that you can do in order to achieve that.
+00:24:18
+Right. And you can take another example here, let's say, let's say pick lock pick low cost 30 k, right. Let's say I want to remove the threat of someone
+00:24:31
+Move the research on the being able to pick the lock for a mere 30 K. Like, what can you do to remove it and that's that's fairly straightforward, right.
+00:24:39
+You want to make it harder to pick the lock, you can get up at a locker right you can get to locks, for example.
+00:24:46
+You can add arms acuity. It costs more, but you essentially remove the rest of someone picking a lock.
+00:24:53
+If you have an arm garden fund a lock, then you don't really have to worry about someone picking a lock anymore. So you try to determine these things and determine what is your weakest area that you need to perform improvement on
+00:25:06
+As for bribing
+00:25:09
+Know, to remove someone from being bribed usually you have to pay them a little more you pay them for bank tellers in the pay them little war, you can take the fingerprints, you know, you can put them, keep them.
+00:25:25
+Keep them under civilians at all times and banks actually please read all the tellers, anyone who works with money to take the fingerprint and
+00:25:33
+And so on. They take training, they do a background check, they make sure that the odd cannot pretty much all the time. Don't have ability to do it, things like that.
+00:25:44
+But one of the best ways to remove Bing is to pay the employees, a little more right so they won't be tempted by me or 20 K
+00:25:54
+Right, it'll raise the cost. That doesn't mean they can't be bribe like a bank employee probably could get bribe or you can probably find something to be right.
+00:26:02
+But you don't want it to be 20 K so little right you know it'd be harder. You want to be much, much harder in order to bribe employee.
+00:26:11
+So that's the purpose of factories. Now we need to find exactly how much attacker costs to try to
+00:26:17
+Open safe really is to identify the weakest areas in order for the attacker to achieve the goals and you try to, you know, mitigate or remove those issues and try to beef up your security in that way. Now this is a silly example by using a bank, but
+00:26:42
+There are other ways to. So, for example, here's one, this is also another
+00:26:49
+Non it related right forgot to put into it later at one but software engineering uses risk.
+00:26:59
+Uses attack trees a lot in order to determine which areas in order to find
+00:27:06
+Code to improve upon so attack trees don't always look like this attack trees can also be in Britain form as well. So you see here, this is exactly the same thing. It's just in a much, much easier to
+00:27:19
+Understand and to write it out so you don't have to draw pictures all the time.
+00:27:24
+The great thing about attack trees in this format is that you can take different parts and assign it to different people to work on. So for example, here there are six oars here.
+00:27:37
+In order to compromise Acme proprietary secrets. Right. So our goal here is compromised. A at me proprietary secrets and he found six on this chart is six ways to do it.
+00:27:50
+Right, each of the six ways can be assigned to someone to work on to try to determine, you know, cause other attributes often node and try to start find ways to mitigate or avoid the risk or or the middle risk or, you know, transfer it to someone else.
+00:28:11
+So we talked about this last week, but
+00:28:16
+In this class we teach you how to exploit system we teach you how to compromise the stops right will give you the tools in order to break into systems fine wanted to be on fire one abilities and get and know usual root access on to a target system.
+00:28:34
+And the reason we do this is because we try to teach you the tools of the attackers nor for you to be able to defend against it. So this class is kind of broken up into the first half of this course. You learn what an attacker does you use the same tools to same basic tools.
+00:28:52
+That attackers use but you end up using the same techniques and the same techniques is the attacker has to tie
+00:28:59
+It doesn't have all day to go find one of goodies and such. Right. They really want to find a one abilities and try to put the systems as as easy as they can. They don't want to go after a hard target in most cases.
+00:29:13
+Right. But here's a reminder for this course is that anything you use here. You can only use on
+00:29:22
+Devices. So for example, you have permission to one of your tools and try to break into any aspect of the V lab into a student user base.
+00:29:32
+Don't try to attack outside of me.
+00:29:35
+Also if you own the equipment. You can obviously attack your own computer attack your own virtual machines and so on.
+00:29:43
+But you can't attack your friends Wi Fi network. If you aren't given permission to do that. So be careful. Be careful about that. Don't go attacking other you know your neighbor's Wi Fi or you know your your roommates computer in and that don't do that right that's dangerous.
+00:30:01
+You know, United States any bypassing of protection is illegal. Right, even if the protections are silly. Right. So, for example, a DVD encryption.
+00:30:16
+DVD encryption DVD copy protection is terrible. The implemented, they use the same encryption key once you know what the key is you can decrypt it very, very easy.
+00:30:30
+Very, very silly right breaking it is trivial. You basically don't even need to know anything in order to break DVD copy protection.
+00:30:39
+Right, and I wouldn't even call it encryption right so poorly implemented. However, if you break DVD encryption, even though it's not encryption, it's illegal. Right. So breaking any copy protection.
+00:30:55
+Even recently it's illegal in the United States. So don't do it.
+00:31:02
+Today for the rest of the class, we will learn about network reconnaissance and that what reconnaissance is the process of casing the joint or trying to find information about the target that you that you will be attacking
+00:31:19
+Okay, so you will break out into six steps of network reconnaissance you will be able to describe all the six buffets and give examples on how to do each of the six benefits.
+00:31:33
+You go into detail about certain topics such as who isn't DNS reconnaissance you learn about several D and s attack.
+00:31:44
+You know, by far, geez, and tools such as at the end zone transferring DNS brute forcing us but DNS.
+00:31:53
+You will be able to describe each of these things in great detail and give examples for it you know all things for the exam.
+00:32:01
+You will understand in great detail the headers IP TCP, UDP and ICMP headers, right. This is something that you need to know for this class right all the network headers and I'm talking about off of it that you should know already. So this includes
+00:32:20
+Our packet eaten it headers layer three IP layer for UDP TCP ICMP. For starters, right. We'll also be talking about the HTTP DNS headers, you know, things that we will get really, really in depth into
+00:32:42
+We'll talk about port scanning, which is finding the points and services that are on a host and we'll talk about in great detail in such detail that you be able to write every single packet in order to perform a port scan.
+00:32:54
+And we'll get to this today, but you will talk about and map or different types of an app scans advantage and disadvantage of each of them and how to use them for each scenario.
+00:33:12
+When we talk about cyber security protections, as Thomas Katie attacks.
+00:33:19
+It's a really pretty broad topic. And when you mean attack. There are so many things that I can mean right so it can mean dos.
+00:33:32
+DoS attack or de dos attack. It can be destroying information which is integrity Dumpster diving Dumpster diving is well it's going into a dumpster and trying to find papers of it.
+00:33:47
+In men ation each dropping that is the signals that come from a computer.
+00:33:53
+Usually from a mantra. Which one did not shoot it properly, you can actually read it or you know sounds from a keyboard or a wireless keyboard a wireless password. You can read the keystrokes from far away.
+00:34:08
+In best moment embezzlement means stealing money espionage. I mean, spying for another country fraud is fraud.
+00:34:18
+Or information warfare right a topic that's been really big. The last two years information warfare is
+00:34:28
+Using fake information to turn the tide of public opinion, right, or making people not think something is true. That's not true.
+00:34:37
+So, for example,
+00:34:39
+I was an army.
+00:34:41
+Prior to my current role. And one of the things I worked on army is army battle command systems and these are the systems used for command and control are
+00:34:53
+Very simple way to put it is a battle command system. It's a system that shows red dots and blue dots.
+00:35:00
+That are friendly units red dots are hostile units and anyone with a map can easily see you know they should go this way or that way or they want to engage the enemy. They can go that way. And they'll
+00:35:13
+Know where to find them. For example, it can also have other information to such as a minefield you into our mind viewed in there.
+00:35:20
+Or you can draw. Now this is the area where you can have air support that is the air doesn't have a support enjoy areas like this territory. Don't go there and so on.
+00:35:30
+So one one example of information warfare is that if the attacker can hack into the system, they can show like a fake Brigade, you know at that location. You know, cause US Army to go someplace else, or change the route because they see adversaries on the map. For example,
+00:35:51
+Information warfare illegal content material malicious code, which is just another way of saying malware.
+00:36:01
+Asked escalating that's pretending to be someone you're not, for example, spoof email spoof emails masquerading or masquerading is calling up and saying, Hi, I'm from your IT department. Can you give me your password, please. That's masquerading
+00:36:18
+Social engineering social engineering is a fancy way of saying you're tricking someone into giving you information or doing something
+00:36:28
+For your benefit enough for there's
+00:36:32
+Privacy spoofing terrorism stealing passwords exploits scripts that which intrusions. So these are all different types of attacks and crimes right and all that falls under cyber security.
+00:36:47
+So when you talk about someone got compromised someone's on the cyber security attack. It could be all of these things.
+00:37:03
+So,
+00:37:04
+Why people are attacking today.
+00:37:08
+And now, long time ago. It was not because of fame.
+00:37:14
+Right, sometimes because of war. But today, it's very clear. It's very, very clear. A lot of cybersecurity attacks are
+00:37:23
+due to financial gain. Right. And on the Slack channel I shared the revising police report for 2019 which came out just like one or two weeks ago. And it confirms it. One of the reasons that a lot tax occur is because of financial gain.
+00:37:44
+In this class we talked about some loss.
+00:37:48
+And we talked about this is because we are required to talk about it as
+00:37:58
+We are required to talk about it for NSA certification. However,
+00:38:03
+It's not something that will be tested on so therefore I don't need to discuss it in this class, so please make sure you go to this next couple slides for the sole purpose of just being aware of, of cyber security related laws, the United States.
+00:38:23
+Today,
+00:38:25
+For the rest of this lecture we're gonna talk about mainly about reconnaissance or information gathering
+00:38:36
+In our course.
+00:38:38
+We will be talking about the six steps for network reconnaissance
+00:38:44
+And he's six steps are one collect public information to discover the network topology three discover the host in the network for discovered the ports and services in D host
+00:39:01
+Five analyze six recursion, which is do again. So we took. We talked about the six steps for that one reconnaissance we use six steps, however.
+00:39:12
+Other mythologies may use, you know, four steps or whatnot, but still the, all the same, right, the network reconnaissance with RG is tomato. What if RG subscribe to is pretty much always the same.
+00:39:27
+Number one open source entire collection collect information use Google use directories use whatever it is that you can to get information.
+00:39:39
+From open sources, not even trying to hack into the systems just from open sources. When at the get that you have an idea of what the network is what the IP addresses are then you do the network discovery what something that's what IP addresses. Just the target half
+00:39:59
+We host discovery, what specific IP addresses. Do they have poor service discovery. What ports, but programs running on what services they want a web browsers are they running web
+00:40:13
+Apache web servers. Like, what are they doing there five analyze the data six do again. Now that you have what data. This is six steps that you can need to memorize for this class.
+00:40:34
+So,
+00:40:36
+What are the information that you're trying to get when we are performing that reconnaissance say I thought I had an exercise here, see where are we here.
+00:40:52
+So what are the information that we're trying to get when we're performing network reconnaissance well some obvious ones is IP addresses network topology, but there's some really good one. So like for example.
+00:41:09
+The window the windows domain names right or
+00:41:14
+Specifically, or
+00:41:17
+We can talk about the web domain names that the company has been want to find out the names off the end of their accounts or the format of the account is it, for example.
+00:41:33
+first digit last name or first name first last name is it first name, last name, first name dot last name or something else. Right. Oh, is it first first initial first name.
+00:41:47
+first initial middle name last name like was how does it work. We want to find out what operating systems, what software do you use
+00:41:58
+What kind of scary policies that they have, for example, what's the password. Complexity requirements today requires a character's name to be 15 right how often he changed.
+00:42:10
+His security. Right. The data systems are their servers, just left out and you know on the floor or do they have a sort of that's under lock and key tied to find information about employees. Like, where did they go to what. Where did they go hang out. Where did they go where they live.
+00:42:32
+And as much. What a favorite lunch spot doesn't find out as much information as can from open source.
+00:42:42
+Areas, you know, just by Googling information or using certain tools. I might be available to us.
+00:42:50
+So the first step of the network constant method is to collect public information.
+00:42:59
+One way to collect information would be to simply calling them up. Right. You just call them up and you can just spoof your caller ID, as you know,
+00:43:12
+Spoofing your caller ID is extremely easy. Anyone can do that for just incomplete $10 a month. They can spoof their caller ID number, right, you can do it yourself. If you simply these is DN line.
+00:43:28
+From an ISP or telephone line with that. And after that you're able to run your own software like Asterix
+00:43:37
+In order to spoof your telephone number, right. And right now there is just no security whatsoever. There's just no security over it. There is absolutely no security. Anyone can call anyone from any number that they just say that they're coming from, right, it's very, very easy.
+00:44:03
+Google hacking right
+00:44:06
+But most of the time will be using Google or some search engine in order to find information about the company their employees and such and
+00:44:16
+A Google has a number of keywords that you can use in order to make searching easier for example site. If you use the site directive, you can search only within the site.
+00:44:31
+So for example, if you search for my name for look back, you might find multiple Philip max out there, but since you know I work for NYU, you can do site NYU the EDU for the back and you will find information about me. So, for example, it's site and why you.edu for
+00:44:55
+Back and the search results will only find flop back within nyu.edu
+00:45:03
+Link. This shows all the sites that link to a specific webpage. So for example, let's say you have this web page and you find want to find out all the people who linked to it. So, for example,
+00:45:19
+For those of you who like
+00:45:21
+Dave Grohl, for example, the artist and you won't find out who's links to the personal webpage, you can just do link.
+00:45:30
+The website. So in this example.
+00:45:34
+Has link Cohen www.edu. This shows all the sites that link to that is have a hyperlink to poly edu.
+00:45:44
+entitle in URL and so on. So there's lots of them.
+00:45:49
+So, for example,
+00:45:51
+Exercise number three.
+00:45:54
+How would you find a file and my edu with the string this file was generated by necessity.
+00:46:05
+Right. And he is some examples of the Google keywords. Right. So let's take one minute to do that. How'd you find a file on MIT edu this file was created by nexus
+00:46:19
+Let's take one minute to that.
+00:47:26
+Alright, let's give it 30 seconds and then I'll see what results, you have
+00:48:03
+Okay, well, we'll let you share the response with me. Has anyone tried it.
+00:48:17
+Right. So the correct answer for this one is psycho and and why the EDU
+00:48:24
+And quote on quote this fall was generated by mesas
+00:48:30
+And the key. This is important because the term this file was generated by Genesis
+00:48:41
+Is
+00:48:43
+Is related to files being generated by analysis right and necessarily vulnerability scanner that we will be using the open source version in this class. It's a one ability scanner.
+00:48:57
+And this one really scanner. I'll put files and in the file says this file was generated by NASA's so we know that
+00:49:07
+These files are pretty sensitive and they shouldn't be searchable on Google, like you should not find anything with destroying this file was generated by nurses on Google because it's very sensitive, you can find information about
+00:49:25
+About the websites or about us you know systems like that, but unfortunately accidents happen. And if you do the search, maybe not within valued at you.
+00:49:34
+You will find this follows generate businesses all over the internet. And if you look to them, you will see that they talk about one abilities in the system, you know, such as missing patches or
+00:49:51
+low complexity passwords and or pastors. Now, it means being changed or a night that right all over the internet. Even though it's something that you should never have on internet
+00:50:06
+Here's another example.
+00:50:08
+Another example is file type Cohen SQL.
+00:50:13
+Insert into Josh users values and an empty file.
+00:50:18
+Right. And you try using the search on Google, you will find actual username and password passwords from a database dump on Google, right. So does it database dump.
+00:50:33
+And it's something
+00:50:36
+Is a database them from MySQL and it's basically something that should never be on the internet, right, because it has a username and password for some application there.
+00:50:49
+So it should not be, you know, Google, but no accidents happen right misconstrued Miss configuration happens and if you try to school search
+00:51:00
+You will find username and passwords and sometimes email addresses for the websites that you found so this type of things called Google searches Google hacking and Google hacking. There's a whole database of it. This is a link to it.
+00:51:19
+Is a list of Google hacking keywords that you can use to find information about particular sites and expert dB. The even automated a completely, but it can do searches for you and made it very, very easy right just as someone who's trying to protect on network.
+00:51:39
+Google you're hacking should be something that you do on your own company or, or, you know, to help protect them.
+00:51:50
+Another thing that we can do is to find information for that's published online. So, for example, any publicly traded company.
+00:52:01
+Is required to submit their files to the database.
+00:52:06
+They're required to do that. And this database has a lot of really good information about has you know the names, the CEO or
+00:52:15
+The CFO. They have names of high ranking people, they have the email addresses, they have their cell phone numbers have a lot of information about the company and something that you can just looked up very easily.
+00:52:31
+malty eagle.
+00:52:34
+article is a open source intelligence or always enter tool use for finding
+00:52:43
+Information that is available out there so you can download a free version and try out yourself. Some things you can do is
+00:52:52
+You can, for example.
+00:52:55
+Put in an email address and about ego has the ability to take that email address and be able to find anything associated with that email address.
+00:53:06
+So you type in an email address. It could find to see you as a Flickr account. I can see him as a Yahoo mail account, it can check every has a Google account.
+00:53:16
+As as a Google Photos account has a Twitter account, you can find all of this information. But it doesn't stop there.
+00:53:24
+Right. Once you find this information and it sees anything that's associated. So for example, if they found this email address associated with some short name.
+00:53:34
+It can do additional searches on that theme as well and be able to find more information, maybe a second email address.
+00:53:42
+finds that it starts to find stuff from that email address as well. So a really bit built a database of information about
+00:53:49
+Whatever attributes that you give it and it's it's really, really creepy. How much information to confine you just put in an email address, you can find all sorts of stuff about you know that object.
+00:54:10
+Social media has a lot of data. Right. And there are applications in order to download that information. One is called creepy see our EP why it's really all it is not dated, but you get the idea for on the bottom left corner, you see a picture of Twitter. So whenever you post a
+00:54:34
+A TWEET right it's it can have location information on it as well, or Instagram can happen location information.
+00:54:44
+So you can easily just download all the information from various sources right Instagram photos and whatever not example when you upload photos online.
+00:54:56
+It has the meta data that includes you know the location where the photo was taken and someone can just take that information and compile it example.
+00:55:07
+Example, I think most of you use iPhones here and when you send an image.
+00:55:15
+To someone using your iPhone and you do it. Do I message that location information of where the photo was taken is also been sent. So let's say you took a photo at a secret location.
+00:55:31
+And send it to someone via I message or even by email. They can open that photo and see where that was location that the photo was taken.
+00:55:41
+Right, that information is in the photo and every time you share this information, you're essentially sharing this information to Instagram or Twitter or whatever it is, as well.
+00:55:53
+So all the information exists out there and a lot of it can be downloaded it right creepy doesn't do that. I mean, excuse me, creepy is not updated, but you can easily see how it's trivial for all of this information to be downloaded.
+00:56:13
+Before
+00:56:15
+What are some ways you would obtain information from a company using public sources. Right, let's take two minutes do that.
+00:56:43
+Halfway through the class. So let's make this three minutes and you can take a break here as well.
+00:57:56
+half minutes.
+00:58:33
+One more minute.
+00:59:04
+I'm going to ask for volunteers to share the answers with the class, really. There's no right or wrong answers and we went over a couple of ways already what anyone like to share the answer of the class.
+00:59:36
+Oh, that's really amazing. So if you are a New Yorker, or in New York State resident, you can find information about
+00:59:45
+The company's order. You know who the whole list of companies are who who are all the key one of those public information.
+00:59:54
+Right property records. Right. You know, you can look up a property, you can find who the owners are how much they pay for the house, how much it cost. How was the value that loan amount and such.
+01:00:08
+Right, and to continue. Some of the things we talked about last week the domain restoration information which was right. You can do a who is look up of the you know the website to find out you know who registered ID or the location.
+01:00:22
+You could look at the company's main page social media page to add to Google hacking other public records of
+01:00:32
+Student also linked it to Pennsylvania as well. I live in Virginia right now and Virginia has a similar website where you can just look up information about property and corporations and so on and find out who the holders or the shareholders are all this information is available.
+01:00:51
+And so there's lots and lots of ways to find information. And so from the stores, you can start to build information about who the owners are company or you can probably find a employees and social media.
+01:01:03
+Or you can find out lots of information about it like LinkedIn right you know for most people looking for a job or have a job day they use LinkedIn. Right. It's pretty popular right now and LinkedIn essentially just shows you all the employees and former employees.
+01:01:20
+Of a company right it's it's a lot information, especially about the former employees that you can find on LinkedIn.
+01:01:31
+Oh, six steps to a network reconnaissance process.
+01:01:40
+Step to determining the network information.
+01:01:48
+Anyone who register website can do a who is query, right, who is so who is will give information about a domains.
+01:02:00
+Registration address telephone number and such. And anyone who's ever visited a website, you know that this information you need to put in unless you pay like $3 for you or something like that. And with who is you get to find information about know all these domains.
+01:02:19
+E and S when you register domain name.
+01:02:30
+You know this. What's wrong with this slide. This slide is talking about.
+01:02:35
+This is
+01:02:37
+Who is
+01:02:40
+This Titus wrong, who is the treasure trove of information not DNS. So it's the same slide.
+01:02:51
+You can find information about
+01:02:55
+The company's DNS blocks and
+01:02:58
+What IP blocks belong to them. So for companies located in North America, say, let's say you pick a fairly large company like Sony. Sony will be available on the air and database. And you can find out what IP blocks. They have registered to them.
+01:03:19
+Who is. So again, who is you can find information about their address, and so on.
+01:03:25
+D and s so DNS Domain Name System is the
+01:03:34
+Capability.
+01:03:37
+For the users to be able to access a website using a name and a number. So for example, let's say you want to go to new classes to nyu.edu
+01:03:49
+And when you type in new classes that mit.edu your web browser. Nice. No its IP address in order to get there. So the web browser sent a DNS requests out
+01:04:01
+And a DNS request essentially says, What is the IP address of new classes@nyu.edu and DNS record DNS server respond back with well the DNS addresses that's excuse me, the IP addresses this
+01:04:18
+And that's caught in a record. That's the first one here. There's a record and a record is the IP V for IP address for it. So when I said that your web browser was making a request out the DNS server. I actually meant to say.
+01:04:36
+The browser made a record request to the DNS server and the DNS server responded with the IP address the IPv4 IP address. If you want the IPv6 address that's a
+01:04:53
+IPv4.
+01:04:57
+IP address. Right. And when you make a DNS requests, you can make different DNS request types such as MX. That's the mail server. So for example, let's say you're trying to send an email you trying to send an email to P mac@nyu.edu that's my email address, your mail client would say, oh, OK.
+01:05:23
+And Margarita edu. What is the mail server, I should go to for nyu.edu so your email client will make a DNS request out for the M X record for nyu.edu and the DNS server will respond with
+01:05:43
+The IP address off or the domain name of the mail server for mit.edu and it's not that obvious, right. So for example, we know that Google handles the
+01:05:56
+Mail for nyu.edu so when my web browsers, making a DNS request for the MX record for MIT edu.
+01:06:05
+You'll eventually get a response back saying is actually Google is some Google IP address or some Google domain is actually handling the email. So don't go to NYU the EDU for the mail server go to somewhere else for it.
+01:06:19
+And there's a couple of wants to this, the name server.
+01:06:25
+Right, this is a name server. The name server or the DNS servers, the DNS servers essentially asking what are the DNS servers for this domain. So if, if I make a n
+01:06:36
+S record request for nyu.edu I'll find out and why the EDU has these name servers and so on, so on, so on. There's also some things such as tax T T
+01:06:58
+txt is free tax essentially you can write whatever it is that you want up to 512 megabytes in size and the thing you want
+01:07:09
+Today is used for email security today.
+01:07:14
+Use for sp.
+01:07:20
+Records. That's an email security, but essentially txt is 512 bytes off whatever it is that you want.
+01:07:33
+Whatever it is that you want us put their up to 512 bytes free next
+01:07:43
+Right, so you can do DNS reconnaissance on a particular website. So in this example, you do some of the DNS lookup for poly edu find a records RIGHT FOR ALL THE RE record finder NS records MS records and so on.
+01:08:03
+And these are all examples of it.
+01:08:07
+Another way to gather information is using a trace route. So at this time. I didn't say it, but this is a trace route here.
+01:08:20
+And trace route is a tool used to identify off the network hops between the sender and the receiver for. So in this example, a trace route was to perform between here and here and you'll find all the hops in between that and this is this is very useful information.
+01:08:42
+Another tool that you use is use the BGP looking class servers BGP looking glass servers are servers.
+01:08:50
+All over the internet in order to perform BGP troubleshooting on the internet. So these are servers now open to anyone to log into it.
+01:09:00
+And you can do various looks upon it suggests pinging trace route and that kind of stuff. So these servers are meant for troubleshooting internet issues.
+01:09:10
+Anyone can log into it and go do certain functions as well. And they're all over the internet. They're still there and they're still required in order to perform network troubleshooting.
+01:09:29
+showdown show that is a website, it's they rebranded to be the Internet. Internet of Things search engine. But sure that essentially is a search engine used for searching
+01:09:42
+Particular attributes of a host. So unlike Google, you can actually put in a an IP address or a particular string or something like that, for example,
+01:09:56
+Let's say you knew that Cisco devices have a particular version had a one ability, you can use so not to search for Cisco devices off a particular version that has stuff on ability. Right. You can do that. Or, for example.
+01:10:14
+Let's say you know that
+01:10:16
+You can find particular models have webcams and webcams should not be connected directly to the internet, right, they shouldn't be right webcams should not be connected directly to the internet.
+01:10:32
+Well, you can find out using showdown from showdown. You can actually go and do searches for webcams connected to the Internet and
+01:10:44
+Guess what you actually find it right, which is kind of crazy and it could do things such as traffic lights connected to Internet traffic lights.
+01:10:56
+Traffic cameras all this stuff that normally isn't connected internet is and showdown can find that information.
+01:11:07
+Exercise number five.
+01:11:10
+What is the difference between who is a DNS.
+01:11:13
+And what is the type of information that you can obtain from each one
+01:11:18
+So I went through it really fast. It's kind of expected knowledge in this class. But if we don't know it. Go ahead and just Google
+01:11:26
+Google information and try to answer the question as best you can, the slides. Talk about it but it kind of shows you already know it, let's take two minutes to do that if you don't know the answer, good answer. And then ask for anyone to volunteer in two minutes. So, two minutes.
+01:12:42
+One more minute.
+01:13:40
+Right, this given the 10 seconds.
+01:13:48
+Anyone like to share the answers with the class.
+01:14:20
+So who is, who is the name, address, phone number of personal domain and DNS information gives information about domains associated
+01:14:33
+That gives information about the domain, such as the IP address name servers that mail servers and so on, right. So that's pretty good. Yes. Excellent. So, one moment, I have to get
+01:14:48
+One moment. My get my documents ready. One moment.
+01:15:13
+Alright.
+01:15:22
+The next step is hostess curry. So we went through the first two steps of the network reconnaissance process already. The first step is open source intelligence gathering find information of Google or other sources.
+01:15:36
+Step to find network information. Step three. Find specific information about
+01:15:45
+What hosts are on network. So you can do this by doing a pink sweep. Just try to ping wholesome network and see we get response.
+01:15:55
+So for example, in this show in this diagram in this picture, you're doing a pink sweep of a number of hosts on the network to see if any of them are coming back to be alive.
+01:16:08
+Alright, so let's take an example of this. I am going to share
+01:16:16
+This share my web browser. Now, one moment.
+01:16:20
+I'm going to share my web browser here.
+01:16:25
+Alright, so everyone should see my web browser. It's on google.com right now.
+01:16:35
+Hey good people. Someone confirm you can see my web browser. It's on google.com okay great so
+01:16:43
+I want to perform some network constants here and I'm going to pick. Well, let's see what happens.
+01:16:52
+First thing I want to do is do some public information searches. So I go to Aaron.
+01:16:57
+Aaron is the American ministry for Internet numbers or in other words they are responsible for I'm handling the IP addresses for North America, and that includes North and South America.
+01:17:16
+Oh, let's say I want to find some information about and my you
+01:17:27
+There's not why I wanted
+01:17:39
+To change the website. Since I looked into this
+01:17:47
+errand search
+01:18:12
+Here it is. So I'm looking for NYU information about NYU, and I see that is in New York University that I'm finding information about
+01:18:23
+Okay. And I found their address 726 Broadway a floor. So I'll just got copies of this information to my other
+01:18:33
+To my other window. And if you see it there. We tried to share this information.
+01:18:42
+OK. One moment. Why, more, more, why manage my screen sharing
+01:18:55
+So I wonder if I can share two winners at the same time. Someone help me here.
+01:18:59
+You should see my PowerPoint right now.
+01:19:07
+You see the PowerPoint and then I'm going to switch back to my Chrome. Let me know if you can see Chrome. Now do you see Chrome now.
+01:19:15
+Okay sure to Windows. At the same time, and my back in Chrome or ICO can share one window as same at one time. And I want to switch back and forth here. So I'm gonna go back to Chrome Heaven right knows by myself. All right.
+01:19:29
+So I see information about when it's registered or has changed and so on. But what other information day get. I get an email. Just look at this, so I know it's Network Operations Center.
+01:19:43
+Email address right so I'm a copy this down. I know you can't see what I'm typing here, but I'll show you. I'll share with you the information afterwards.
+01:19:53
+Okay, I get a telephone number. Oh, and I get the address I get the address as well. So I have like right now. I have email address telephone number.
+01:20:06
+I have the address. You know, one METRO CENTER 22nd floor right. I think this is a new building right
+01:20:14
+And it gets lots and lots of good information about. It's not that much but you know I get some pretty pretty good information here.
+01:20:23
+Unfortunately, this is not what I'm looking for. Right. So this top I've mentioned that to who is database, right. But that's not what I'm looking for. That's not why I went to Aaron to find as well.
+01:20:36
+What I really went to Aaron to find is to find its IP information. And I know it's here somewhere. So hold on let me scroll. Let me take a look at this.
+01:20:51
+It's not what I'm looking for.
+01:20:55
+Oh, here it is. I think I find what I'm looking for here.
+01:21:01
+Wait a little complicated here. Right.
+01:21:07
+So,
+01:21:09
+So this is a who is database, actually. So you see that the first entry. Here's who is this not what I was came to Aaron to find
+01:21:18
+I came to Aaron to find that this who was the information
+01:21:23
+I came to Aaron into are defined IP information. So for example, I found NYU that Ed use IPv6 address right so I see that IPv6 address is two, six or seven
+01:21:41
+600 colon colon slash 32
+01:21:45
+Alright, so they get all of this, right, we're not going to what IPv6 is but just know that I know that IPv6 IP address right so I'm copying that down right now as IP address right so as IPv6. I was looking for the IPv4 IP address as well keep looking here.
+01:22:07
+Oh, here it is. So I have that IPv4 IP address. So they have one to eight dot one to two dot zero dot 02 1-281-222-5255 that is this is NYU that Ed use IP address range, right, so let me write that down to
+01:22:33
+Let me copy it down.
+01:22:41
+Okay, so I wrote that down.
+01:22:44
+I need to have more IPv4 addresses and keep scrolling here.
+01:22:49
+What's this, so here. Here's another one. So not only does NYU have one to eight dot. They also have this 192 as well. This 192 76 177 slash 24 so they have that as well.
+01:23:09
+Right, so I have this I have this IP address and will copy that down as well.
+01:23:15
+As well. So keep scrolling here.
+01:23:18
+Right, so I don't know what that is. This is one nice to see I just copy that down. Let me see check my notes. No, there's a new one. I just a new one. So I'm going to copy this down as well.
+01:23:33
+Right, maybe keep scrolling here.
+01:23:36
+Oh, and NYU has this 216 as well. Do you want six
+01:23:42
+What else do they have
+01:23:45
+I keep scrolling here looks like this is it.
+01:23:48
+So this is i scroll to end the page so that we
+01:23:54
+may change over to
+01:23:58
+A change over to my PowerPoint slide.
+01:24:03
+One moment. Let me make sure I'm actually sharing this one.
+01:24:13
+Right, so someone confirm with me that you're able to see a page with IP addresses on it, it says click to add title. Okay, good. So this is and why you always aunt or open source recon
+01:24:37
+Right. So in just just one bit of time I found out quite a bit of mission by mit.edu I found out wonderful addressed right I found out that has a presence on seven to six Broadway, a Florida is probably their IT department.
+01:24:53
+I found out that they have another one at
+01:24:56
+One mature tech center 22nd floor but it probably this second IT department over there as well. And I found out all the IP addresses or specifically all the IP addresses assigned to them by Aaron right and that's
+01:25:13
+You know, quite a number of addresses here.
+01:25:17
+Right, so I find out the IPv6 address which, you know, pretty sure they're not using right now I'm finding out all these other IPv4 addresses so I now know these IP addresses. I guess I kept with IPv4 more too. So I got, I kind of have a, like a good idea of what IP addresses and my u.edu
+01:25:40
+Right now I have a pretty good idea about it. So I can just continue to look for some more information when we come back to Chrome here.
+01:25:56
+Right. So one thing I can do is I can go to a who is database.
+01:26:00
+Right, who is. And although I found some who is information before I didn't actually mean to find it from there. So what's a good website.
+01:26:13
+Network solution that was pretty good, I think.
+01:26:16
+So who is and why you.edu
+01:26:23
+Oh, no.
+01:26:26
+storefront
+01:26:30
+I get that right.
+01:26:33
+Yeah, I got that right.
+01:26:36
+Who is resource for nyu.edu. Here it is. So this, this
+01:26:43
+Really is the who is database, right, when someone registers a domain name they store this information.
+01:26:52
+Right. And here I'll just copy AWS information so I can get some more information about nyu.edu right and i know i know this is not groundbreaking information but
+01:27:04
+You know, it's pretty good information. If you don't know anything about your target that you're talking about, right, imagine you don't know anything about NYU, you can in some pretty good information here. Um, I know, for example.
+01:27:16
+Now I know that I T communication operation services is on seven east wall street for for now. That's, that's pretty good information right I have probably a phone number. I have some pretty good information about it. Right, I'm Learning Ally information about NYU that I did not know before
+01:27:42
+I just know I didn't know this information before. So for example, if I go around seven east wall street and goes to a cafe downstairs I probably
+01:27:51
+Know might be able to run into some it employees and listen to their conversations and find out even more information about them. Right. That'd be go to next to a D and s lock up
+01:28:07
+Right, I want them. I like is a Rob tax. So let's try Rob tax.
+01:28:14
+And let's say I'm trying to look up
+01:28:17
+nyu.edu
+01:28:24
+Right. So let's see. Does it come up
+01:28:31
+Right so rod, Texas, pretty good. I guess it's it gives a little one for me. Let me do it more simple DNS lookup. Let me find it easier one
+01:28:44
+Oh, and why you.edu. Let's see. Let's see here. I did write down which one's my favorite.
+01:28:54
+Mexico. So, for example,
+01:28:57
+I go to NYU the EDU I get tried to get a record. Right. And as we talked about a few minutes go and a very good is the IPv4 IP address for a site so
+01:29:10
+You're trying to go to Android edu website, you get the IPv4 address. So I'm learning some information here right and right edu IPv4 address. I'm a copy that down over here.
+01:29:23
+Right, so I'm just learning information about nyu.edu
+01:29:34
+So, but let's say I want the mail server, right. I do Amex locked up.
+01:29:44
+Alright, so I did M X look up
+01:29:51
+And look up is
+01:29:54
+This so their
+01:29:59
+mail server is this weird address right and that's not common. I've seen this before. This is proof point
+01:30:08
+And this is a kind of like a spam type of email service. So they put the email service in between what you're actually sending to
+01:30:19
+Buy going to like a filter. And this is a one of the services. So let's say you're trying to send an email to me P maquette and write a deal.
+01:30:29
+Your web browser, excuse me your email client would do a m x look up MIT edu and find that, hey, this is the email server for nyu.edu
+01:30:42
+Okay, send an email to this. So when you send an email to pee Makkah and Madina edu. The first step, it goes through is actually
+01:30:51
+This this weird pp hosted com which is proof point A email spam, spam and authentication service, kind of like, so this is a service that NYU pays in order to, you know, reduce the amount of spam and
+01:31:08
+spoof the emails that come in to the NYU email system. Right. So it does kind of the email kind of goes through here first and probably next up, it will probably go to
+01:31:19
+Google
+01:31:22
+So that's that I say I want to find its
+01:31:27
+name server outlets. So a that is the IPv4 IP address. So, and now you that edu does not have a IPv6 IP address, just ask.
+01:31:42
+Let's see, what else
+01:31:44
+I can do a textbook up right text that's a free text field up to 512 bytes.
+Unknown Speaker
+01:31:53
+Right.
+Phillip Mak
+01:31:56
+free text field. And you see that they're using this free text field for some, you know, interesting information here right it's doing some sort of interesting information isn't DocuSign here, this part is, this is the SPF email security information here as well.
+01:32:20
+So there's, there's a, you know, a couple of things here. So tax it can go up to 512 bytes each
+01:32:29
+So I'm just learning a lot of information about it, but really all I really, really care about was the ay, ay, ay,
+01:32:40
+And that's the
+01:32:42
+NS name servers NS with an S.
+01:32:49
+And s tax.
+01:32:53
+And Amex right so I'm learning a lot information about nyu.edu here.
+Unknown Speaker
+01:32:58
+Right.
+Phillip Mak
+01:33:01
+Then, Rob. Rob text us the same thing. So it just does it a little bit, you know, faster together. So, for example, it gives that analysis and why they do S3 name servers to mail servers and one IP number on the IP address, just give you his information about it, right, is that
+01:33:21
+The name server is and as wonder and my edu and then is to and then it just gives information the mail servers are pp hosted calm right which is the proof point email security service. It gives IP number gives the pointer excuse lots of good information.
+01:33:42
+Right also gives similar domain names as well. Similar domain names like whatever these things are similar domain names.
+01:33:52
+So lots of really, really good information. Right. So example this IP number is 216165 4710 so I know it's IP address for nyu.edu
+01:34:06
+And Australian some notes down before and then we check is this number in the range that I looked at before 216 and yes it is, see. So previously, I looked this up this number and Aaron, and now I found that, again, it's, you know, an IP number that's register to nyu.edu
+01:34:28
+Alright, the next thing I want to do is a trace route so we do a trace route.
+01:34:37
+Right. So what's this guy do this for a trace route.
+01:34:41
+And I want to do a trace route and nyu.edu
+01:34:52
+Okay.
+01:34:54
+So let's working here.
+01:34:58
+So what's a treasure a trace route is a tool used to enumerate all the hostage between here and the destination. So here is this particular website that
+01:35:11
+uses these two of them. And there is an MIT edu just taking a long time. These find out the one
+Unknown Speaker
+01:35:22
+Five different websites.
+Phillip Mak
+01:35:27
+What's this guy do a trace. Try to use this
+01:35:31
+Right, so as to nyu.edu
+01:35:41
+Or cane and go back to this one. It's still working.
+01:35:45
+This one.
+01:35:48
+Okay, good. So it's good. This one has some results.
+01:35:53
+Oh yeah, how one
+01:35:56
+This is where I'm coming from.
+01:36:00
+This IP address right 10 dot zero dot zero dot zero
+01:36:06
+All right.
+01:36:09
+And it's going and paying and pinging and Penguin, Penguin and so on. So this is all the Hossa it's going through the Internet in order to get there are a lot of hops. Right. That's a lot of hops here.
+01:36:26
+Right. Quite a number of them, but there's some interesting things here. So for example, I am here. What is that wherever it is coming from this is coming from this IP address and so on. Some of the hospital responses goes to the number of IP addresses on the Internet.
+01:36:45
+Right then it finally gets to the local area.
+01:36:51
+Right, wherever. These things are discovered the ISP, the ISP, the ISP and so on.
+01:36:58
+But then, here this is the first one that I know of as nyu.edu right because I can see that the name of this device, like, first of all, has the IP address.
+01:37:14
+For my Aaron search earlier, I noticed this, and my IP address. Let me double check that and we look at my power. So I know you can see this but I wrote down some information.
+01:37:23
+And I see that
+01:37:27
+One. To eight dot one to two is indeed a nyu.edu IP address. So take a look at this and I see look at the name of this. This is the NYU GW a
+01:37:41
+PTP DMC GW be V 1302 and he would. Anyone have any idea what that means like this. Does anyone like Portsmouth, that works have any idea what that might stand for or such
+01:38:02
+Right, and why you why anyone that might be thinking
+01:38:09
+Just one NYU je W A PTP DMZ GW p v one or ve L 3082
+01:38:23
+Was this NYU f w dash outside that n g f WV one. Does anyone have any idea what these things might mean
+01:38:35
+Right, yeah. Look at this. I hey I I don't really know what this means. Right. I'm just guessing. But I'm just guessing. Right. And why you gateway a
+01:38:53
+Right, and why you gateway. A PTP not sure what that means.
+01:38:59
+The MC. So maybe it's NYU gateway. A to DMZ gateway be we land three or two, we tend to just tell you the V line here.
+01:39:13
+Right, or NYU gateway. A PTP DMC DMC gateway be real and real a to I would not be surprised if that's true, maybe we should call it above we have their number for the IDs operations. Right. We call them and ask them.
+01:39:32
+And my you FW so and my you firewall outside n g firewall next gen firewall right next gen firewall we land 3080 sounds pretty right sounds pretty good. Right. So you're getting some pretty good information here right upside to have an idea of what these things are.
+01:40:00
+You know, just really getting idea what these things are. I don't really know, but this is a lot information. I didn't have before. Right, so
+01:40:10
+Other hops is probably going to NYU. I know at least three hops are going to the DMZ. Before I get to nyu.edu and certainly
+01:40:22
+I'm pretty sure I'm hitting the gateways. Maybe the load balancer right maybe this load balancer in there right on these could be a load balancer.
+01:40:33
+There's a firewall at least one firewall here is just a lot of good information I can find out simply from a trace route and I did this just for nyu.edu whatever didn't do classes@nyu.edu right. Would it be any different.
+01:40:51
+Right, let's take a second. Let's find out.
+01:40:54
+Right, new classes that nyu.edu. Okay, let's go, let's go, let's go. What else am I getting it's at the same thing. It's the same thing. Right. So there's some good information. I'm a copy this down because is pretty good information about and why you hear that I didn't know about
+Unknown Speaker
+01:41:24
+Let me try again copy
+Phillip Mak
+01:41:33
+Right, it's not copying properly. It's not the point. The exercise.
+01:41:38
+So I'm learning some good information here. Let's see what else I can find. Next up, I wouldn't go to show down.
+01:41:48
+Showed on the Internet of Things search engines or what they called internet thing search engines and let's say I want to find out what this is. What is this this IP.
+01:42:00
+128122254 centimeters. Don't forget that that
+01:42:05
+One to
+Unknown Speaker
+01:42:08
+It.
+Phillip Mak
+01:42:09
+There, I forgot it.
+01:42:13
+128 that 122254
+01:42:24
+Write this down over here. So that's
+01:42:29
+128122 dot
+01:42:43
+Rock is not telling me anymore.
+01:42:49
+Thank you.
+01:42:59
+Didn't go to show me see what showed on the same show that has any of this information.
+01:43:04
+I do a search and showdown.
+01:43:07
+Doing a search. Let's see. No results found, never mind. So, so let me do mit.edu
+01:43:19
+Right so nyu.edu
+01:43:26
+So I found information about NYU and those IP address right it tries to connect to it and it's see an SES information it has races, different IP addresses.
+01:43:48
+On it. It looks at the SSL certificate you see that information as well.
+01:43:53
+Hmm. Oh, wait a minute. What's this start that new that home. That is why are the NYT edu test page for Apache HTTP server. Oh no, it looks like some someone at NYU started a server.
+01:44:10
+And did not really configure it properly. Yet, and we see the it's running Apache
+01:44:18
+This information was scattered June 11 is this today, June 11 no oh that's GMT. So this was guided very recently.
+01:44:29
+As well.
+01:44:33
+Um,
+01:44:35
+What information do we know here.
+01:44:38
+So we find a lot of good information.
+01:44:45
+We can get one result and I could not survive by IP address as well. Unless you log in. So you find some really good information here.
+01:44:57
+Based on information that we tried to like gather from open source information.
+01:45:06
+So then we go back to our PowerPoint slides now.
+01:45:20
+So we did lots of these things here that we discussed
+01:45:25
+We did. We did, who is we did DNS.
+01:45:31
+We, the trace route.
+01:45:34
+We did trace route we looked at showdown and such. Right. Next thing is find a host
+01:45:42
+Now,
+01:45:44
+Out there, we kind of have some good information about NYU specifically you found the sub nets that might be using the IP address range.
+01:45:53
+Another thing we want to do is, what kind of domain names are a day using. So for example, we know they use new classes@nyu.edu
+01:46:03
+What else are they using I know they're using engineering the nyu.edu. What else are they using
+Unknown Speaker
+01:46:11
+Right.
+Phillip Mak
+01:46:12
+I don't know. And there's several ways to find out one way to find out is called a DNS DNS zone transfer a DNS Joan transfer is making requests a DNS server to get everything for DNS server out of it. Everything just get everything out. That's going to the end zone transfer
+01:46:36
+If it works, it's a big vulnerability
+01:46:39
+A long time ago, the end zone transfer war by default open
+01:46:46
+Today, you can't do that anymore. Right. You can't just get the whole database out by doing his own transfer
+01:46:54
+Instead, today we would do what's called a brute force DNS server DNS request. What that is is you just go and try different domain names. So for example, I will give a shot and try
+01:47:10
+Tell me the IP address off FTP and made a deal and they'll tell me whether it has an IP address or it does not. So do FTP to NYU day do you test the nyu.edu test to the NYU the EDU Wi Fi that NYU the EDU
+01:47:27
+Red Hat, The nyu.edu you know mail to NYU the EDU just keep trying and trying and trying and just take a really, really long word is just keep trying and trying and trying and trying and trying and trying and trying.
+01:47:41
+And that is called brute force for DNS. Just try thousands and thousands of thousands domain names in Georgia tried to figure out what domain names that mit.edu has
+01:47:52
+And you might end up finding. Well, they might have like to test the MIT edu. And it might be poorly configured and someone can get into our. You might even break into a network like that.
+01:48:06
+What can we do about it in order to stop someone from performing brute force for DNS lookup.
+01:48:15
+We would use a splitter DNS service.
+01:48:20
+And what a split DNS service is is that your DNS server is actually split into two different DNS servers. One of them is internal.
+01:48:32
+For internal usage and one for external for external usage. So in this way, people from outside aren't able to perform lockups on things are supposed to be inside. For example, if you're using Windows
+01:48:49
+Your Windows computer is probably on DNS as well and your DNS server is the Active Directory.
+01:48:57
+So,
+01:48:59
+That DNS server is internal. You don't want that DNS server to be facing outside because you don't want people to be able to look up your
+01:49:09
+You know, your host computer names and find the IP address of it.
+01:49:22
+We could find information about the host that are on
+01:49:28
+A network by doing proof with DNS or, you know, using a tool like showdown from sure, Don. We find lots of sub domain names like here we see proxy one that mit.edu
+01:49:41
+And as to like CMC out to that DMZ. The nyu.edu. I don't know what it is, but when you see CMC to there might be a CMC out one, for example, had all these different servers.
+01:49:55
+Here all these different domain names that we're finding, or excuse me on the sub domains that we're finding here like this. So many of them available that we see right here, start that new and you know there's something wrong here, right. This is not configured properly.
+01:50:11
+Here. So, this website is not configured properly.
+01:50:17
+I could just take a look at this website by going to URL scan.io
+01:50:23
+And from here and there we see like start that new the home. That is why art and writing he do, let me take a look at what the cyst.
+01:50:30
+So essentially, it's going to that website for me.
+01:50:34
+So it looks like a regular NYU edu. I noticed I didn't go to his website I use someone else to go to this website.
+01:50:43
+Itself. I'm learning lots and lots of information about about it, especially to all these different domain sub domain names that
+01:51:08
+Anyway,
+01:51:09
+The last topic we're talking about. It's just some notes. I want you to be able to do for next time.
+01:51:16
+So here's a TCP header. It's something that you need to know where we carefully. If you're not already familiar of this in great detail. Please make sure you take a look at that yourself.
+01:51:25
+We'll also talk for the TCP three way handshake next week in detail and some tools in order to do that before we end the class. I have two more questions for you.
+01:51:37
+First, what are the six steps of the network recall since the process we went through four of the six steps already. And actually, so essentially what do all six steps already
+01:51:49
+And lastly, are there any model points in the structure in this lecture.
+01:51:54
+Bundle points are things that you don't fully understand that we talked about, but you have questions about you don't fully understand that you plan to go back and try to figure it out afterwards. So, for example,
+01:52:06
+You may have a model point on DNS doesn't mean you don't know what it means that
+01:52:11
+After the structure, you still don't know it. You plan to study, yet you know before next week. So these are the model points, things that I want to know that.
+01:52:19
+You did not fully understand yet so I these things I collect every week. And when this couple of students who have the same problem. We should go over again.
+01:52:29
+I'm really interested in knowing so last minute class. I want you to tell me what the six steps of the network reconnaissance process as we do it in this class. And are there any model points in this lecture. Right, let's say, two minutes did that.
+01:53:46
+Thank just one more minute.
+01:54:50
+Okay, that's all the time we have for today. So again, what is six section that what reconnaissance process. Well, step one is open source intelligence.
+01:55:02
+Right, collect public information step 234 yeah that will discovery host discovery ports and services discovery.
+01:55:11
+Right. Step five. analyze information. Step six. Recursion. So after we learned all this stuff about
+01:55:18
+NYU today. You can imagine that we know a lot more about NYU than you can possibly imagine.
+01:55:26
+Right, just take a look at some of the notes I talk here about NYU. I know lots of really good information about NYU, that when you do this again now with information. You can find even more information about it. So please, thank you, all of you for joining the class. Oh, wait. One more question.
+01:55:48
+Question can webmasters intentionally hide things from DNS or who was locks up. Yes.
+01:55:56
+But if you want to function properly. You can't be hiding stuff. So, for example, who is if you want to hide information from EU is you can pay a service to know, put some fake information in there for you.
+01:56:10
+Right. So if that's who is for DNS DNS is not meant for hiding stuff DNS is supposed to be an open database use for
+01:56:20
+People who want to get your services be able to look into it and find you know what you have and what you have to offer.
+01:56:28
+Right DNS is supposed to be a open database, you want to use know to share information.
+01:56:35
+With other folks, the problem of DNS is that not only do you didn't use DNS for your outside, you know, public website and such a that
+01:56:44
+People also use DNS internally also. So for example, let's say you're doing development your source code management system.
+01:56:55
+Also runs internally and also uses DNS. So you use DNS internally as well but
+01:57:02
+Sometimes the administrative messes up and that information is find a ball from outside the network would you never want it to be fine. Double by
+01:57:11
+All computers on pretty much on DNS. So you can do DNS box up oh cups of host names within your network. You can type in the computer name, can I find the IP address on the network.
+01:57:22
+Right that information to supposed to be internal only now. So for external usage, but due to configuration or other issues that information can be out as well.
+01:57:33
+Alright, so thank you all for joining the class. I really appreciate it. Please make sure you submit the exercises by 5pm of the next week.
+01:57:43
+This means that, for those of you who can't make it to the class which is okay. I know all of us are busy. We have work and it is summer, of course.
+01:57:51
+Please make sure you watch the video with enough time to do exercises by 5pm of the next week. Thank you for joining me for this class. I will see you next week, take care. 
