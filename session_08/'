@@ -1,0 +1,18 @@
+HMAC uses asymmetric key and encryption uses a digital signature.
+3 ways
+1. Encrypt then HMAC (Protects decryption engine)
+   * you encrypt the message first then HMAC
+2. HMAC then encrypt (What ssl uses)
+   * take hmac of plain text
+   * then encrypt entire thing
+   * hosts decrypts ciphertext first then check integrity
+   * resource intensive
+3. Encrypt and HMAC
+   * only encrypts plain text
+
+
+# Exercises
+1. List some main topics you recall from mi,pki,tls.
+Message integrity is important for CIA, confidentiality, integrity, availibility. PKI is the public key infrastructure and tls is improvement to SSL.
+
+2. 

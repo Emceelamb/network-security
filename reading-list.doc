@@ -1,0 +1,73 @@
+﻿Lecture 2 – Network Reconnaissance
+Reading Materials
+    1. Attack Trees 
+    2. 10 Techniques for Blindly Mapping Internal Networks 
+    3. TCP IDLE Scan 
+    4. Security Issues with DNS (Page 2-8 only) 
+    5. Firewalk : Can Attackers See Through Your Firewall? 
+    6. Missed Alarms and 40 Million Stolen Credit Card Numbers: How Target Blew It 
+    7. Windows 7, not XP, was the reason last week’s WCry worm spread so widely 
+Background Information
+    1. How the Domain Name System (DNS) Works 
+    2. TCP Connection Establishment Process: The "Three-Way Handshake" 
+    3. Google Hacking: What is a Google Hack? 
+    4. What is DHCP and how does it work?' 
+    5. Cryptography - A General Overview 
+    6. Address Resolution Protocol Tutorial, How ARP work, ARP Message Format 
+    7. IP Addressing and Subnetting for New Users 
+    8. Computer Network | Network address translation (NAT) 
+Lecture 3 – Exploitation
+Reading Materials
+    1. Metasploit Unleased (Up to the chapter on Meterpreter) 
+    2. Understanding TCP Sequence and Acknowledgment Numbers 
+    3. Nessus, OpenVAS and Nexpose VS Metasploitable 
+    4. An Illustrated Guide to the Kaminsky DNS Vulnerability 
+    5. Home Depot Hit By Same Malware as Target 
+Lecture 4 – Post exploitation
+Reading Materials
+    1. Ex-Employees Say Home Depot Left Data Vulnerable 
+    2. Binders and Malware 
+    3. Unix Logging 
+    4. Lessons Learned from "Operation Aurora" (Pages 3-13 only) 
+    5. DNSSEC: The Antidote to DNS Cache Poisoning and Other DNS Attacks 
+    6. Netcat Cheat Sheet 
+    7. HackerDefender: Rootkit for the Masses 
+
+Lecture 5 – Cryptography
+Reading Materials
+    1. Cryptography - A General Overview 
+    2. Guess why we’re moving to 256-bit AES keys 
+    3. A Review of the Diffie-Hellman Algorithm and its Use in Secure Internet Protocols 
+    4. Why is elliptic curve cryptography not widely used, compared to RSA? 
+    5. Apple Explains Exactly How Secure iMessage Really Is 
+ 
+Additional Crypto Notes
+For many math problems in the Crypto lecture, the only way to learn it is to perform sample problems over and over again until you know it very well.
+    1. Make sure you can perform encryption and decryption on all the ciphers mentioned in the lecture notes.  
+    2. You will need to memorize the algorithms for DH, RSA, and Modular Arithmetic.  
+    3. Understand the theory of cryptography. See Cryptography - A General Overview (Same link as above.) 
+    4. Learn how to modular exponential math. See Fast Modular Exponentiation 
+    5. Try out many examples of RSA key generation and message encryption/decryption and same for DH. See RSA calculator and DH calculator 
+Lecture 6 – DH, MI, PKI, TLS
+Lecture 6 - DH, MI, PKI, and TLS
+    1. How does SSL/TLS work? 
+    2. Ten Risks of PKI: What You’re not Being Told about Public Key Infrastructure 
+    3. How is it possible that people observing an HTTPS connection being established wouldn't know how to decrypt it? 
+    4. MAC-then-encrypt or encrypt-then-MAC? 
+    5. Can my company see what HTTPS sites I went to? 
+    6. In the wild: Phony SSL certificates impersonating Google, Facebook, and iTunes 
+    7. Maintaining digital certificate security 
+Lecture 7 - Layer 2 Security
+    1. VLAN hopping (Wikipedia) 
+    2. What is Dynamic ARP inspection (DAI) 
+Lecture 8 - Firewalls
+    1. Types of Firewalls 
+    2. Authenticating a Proxy server over HTTPS 
+    3. Linux Firewall Tutorial: IPTables Tables, Chains, Rules Fundamentals 
+    4. IPtables SNAT, DNAT, and Masquerade 
+    5. IPTables: difference between NEW, ESTABLISHED and RELATED packets 
+Lecture 9 - Wireless Security
+    1. Wi-Fi Security: Should You Use WPA2-AES, WPA2-TKIP, or Both?
+    2. Hands-on: hacking WiFi Protected Setup with Reaver
+    3. In Urban China, Cash Is Rapidly Becoming Obsolete
+
